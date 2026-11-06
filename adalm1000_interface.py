@@ -25,7 +25,7 @@ class Ui_MainWindow(object):
         self.ctlframe.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.ctlframe.setFrameShadow(QtWidgets.QFrame.Raised)
         self.ctlframe.setObjectName("ctlframe")
-        self.splitter.setSizes([self.splitter.size().width()*.8,self.splitter.size().width()*.2])
+        self.splitter.setSizes([int(self.splitter.size().width()*.8),int(self.splitter.size().width()*.2)])
         
         self.rightVLayout = QtWidgets.QVBoxLayout(self.ctlframe)
         
